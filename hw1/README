@@ -1,0 +1,13 @@
+HW1
+
+Compilation:
+
+    make
+
+  or
+
+    gcc -o myinfo myinfo.c
+
+Execution:
+
+  ./myinfo

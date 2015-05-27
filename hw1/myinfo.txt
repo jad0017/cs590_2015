@@ -1,0 +1,13 @@
+Tue May 26 20:28:07 CDT 2015
+------------------------------
+System Information:
+  System Name: TheVoid
+
+User Information:
+  Full Name: cquaid,,,
+  Log Name: cquaid
+  UID: 1000
+  GID: 1000
+  HOME Directory: /home/cquaid
+  Default Shell: /bin/bash
+------------------------------
