@@ -8,7 +8,7 @@ OBJ := \
 	$(foreach src,$(SRC), \
 		$(OBJDIR)/$(patsubst %.c,%.o,$(src)))
 
-DEFAULT_CFLAGS := -Wall -Wextra
+DEFAULT_CFLAGS := -Wall -Wextra -std=gnu99 -pedantic
 CFLAGS ?= $(DEFAULT_CFLAGS)
 
 .PHONY: all

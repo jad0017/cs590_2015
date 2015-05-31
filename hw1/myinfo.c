@@ -11,7 +11,7 @@
 /* HOST_NAME_MAX or a value of at least 255 should be used. */
 #define HOSTNAME_LEN 255
 
-#define ERROR(...) fprintf(stderr, __VA_ARGS__);
+#define ERROR(...) fprintf(stderr, __VA_ARGS__)
 
 int
 main(void)
