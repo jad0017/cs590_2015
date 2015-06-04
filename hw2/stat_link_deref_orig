@@ -1,0 +1,10 @@
+./coreutils/src/stat bar --dereference
+
+  File: ‘bar’
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: 801h/2049d	Inode: 1048790     Links: 1
+Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2015-05-08 09:38:22.003756856 -0500
+Modify: 2015-05-08 09:38:15.675620355 -0500
+Change: 2015-05-08 09:38:15.675620355 -0500
+ Birth: -

@@ -1,0 +1,10 @@
+./coreutils-new/src/stat bar --lstat
+
+  File: ‘bar’ -> ‘foo’
+  Size: 3         	Blocks: 0          IO Block: 4096   symbolic link
+Device: 801h/2049d	Inode: 1085681     Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2015-06-04 15:56:38.666125249 -0500
+Modify: 2015-06-04 15:56:33.237974108 -0500
+Change: 2015-06-04 15:56:33.237974108 -0500
+ Birth: -
