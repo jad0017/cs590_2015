@@ -1,0 +1,7 @@
+The stat application shows information about files and file systems.
+
+This patch introduces the ability to use the alternate fstat syscall to read file information. Explicit usage of the stat and lstat syscalls are also added.  Stat called without any of the additional options performs the original behavior:
+ lstat by default, stat when --dereference is given.
+
+This actually has use as each call is implemented by a different system call and thus tests different kernel paths for correctness.
+
